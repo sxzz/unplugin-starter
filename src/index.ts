@@ -7,10 +7,10 @@ export default createUnplugin<Options>((options = {}) => {
   const opt = resolveOption(options)
   const filter = createFilter(opt.include, opt.exclude)
 
-  const name = 'unplugin-jsx-string'
+  const name = 'unplugin-starter'
   return {
     name,
-    enforce: 'pre',
+    enforce: undefined,
 
     transformInclude(id) {
       return filter(id)
