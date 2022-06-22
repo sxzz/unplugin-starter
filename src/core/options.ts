@@ -9,7 +9,7 @@ export type OptionsResolved = Required<Options>
 
 export function resolveOption(options: Options): OptionsResolved {
   return {
-    include: options.include || [/\.[jt]sx$/],
+    include: options.include || [/\.[jt]sx?$/],
     exclude: options.exclude || undefined,
   }
 }
