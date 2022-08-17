@@ -3,7 +3,7 @@ import { createFilter } from '@rollup/pluginutils'
 import { resolveOption } from './core/options'
 import type { Options } from './core/options'
 
-export default createUnplugin<Options>((options = {}) => {
+export default createUnplugin((options: Options = {}) => {
   const opt = resolveOption(options)
   const filter = createFilter(opt.include, opt.exclude)
 
