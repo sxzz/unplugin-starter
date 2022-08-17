@@ -10,7 +10,6 @@
     "noUnusedLocals": true,
     "resolveJsonModule": true,
     "types": ["node"],
-    "exactOptionalPropertyTypes": true,
     "jsx": "preserve"
   },
   "include": ["src", "tests", "scripts"],

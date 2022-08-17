@@ -2,14 +2,16 @@ import type { FilterPattern } from '@rollup/pluginutils'
 
 export interface Options {
   include?: FilterPattern
-  exclude?: FilterPattern | undefined
+  exclude?: FilterPattern
 }
 
-export type OptionsResolved = Required<Options>
+export type OptionsResolved = Omit<Required<Options>, 'exclude'> & {
+  exclude?: Options['exclude']
+}
 
 export function resolveOption(options: Options): OptionsResolved {
   return {
     include: options.include || [/\.[cm]?[jt]sx?$/],
-    exclude: options.exclude || undefined,
+    exclude: options.exclude,
   }
 }
