@@ -3,9 +3,9 @@ import { createFilter } from '@rollup/pluginutils'
 import { resolveOption } from './core/options'
 import type { Options } from './core/options'
 
-export default createUnplugin((options: Options = {}) => {
-  const opt = resolveOption(options)
-  const filter = createFilter(opt.include, opt.exclude)
+export default createUnplugin<Options | undefined>((rawOptions = {}) => {
+  const options = resolveOption(rawOptions)
+  const filter = createFilter(options.include, options.exclude)
 
   const name = 'unplugin-starter'
   return {
