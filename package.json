@@ -80,17 +80,17 @@
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^2.4.4",
-    "@types/node": "*",
+    "@types/node": "^18.11.12",
     "bumpp": "^8.2.1",
     "eslint": "^8.29.0",
     "eslint-define-config": "^1.12.0",
     "fast-glob": "^3.2.12",
-    "prettier": "^2.8.0",
+    "prettier": "^2.8.1",
     "tsup": "^6.5.0",
     "tsx": "^3.12.1",
-    "typescript": "^4.9.3",
-    "vite": "^3.2.4",
-    "vitest": "^0.25.3"
+    "typescript": "^4.9.4",
+    "vite": "^4.0.0",
+    "vitest": "^0.25.6"
   },
   "engines": {
     "node": ">=14.19.0"
