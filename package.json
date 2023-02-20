@@ -1,7 +1,7 @@
 {
   "name": "unplugin-starter",
   "version": "0.0.0",
-  "packageManager": "pnpm@7.26.3",
+  "packageManager": "pnpm@7.27.1",
   "description": "Description.",
   "keywords": [
     "unplugin",
@@ -76,22 +76,22 @@
   },
   "dependencies": {
     "@rollup/pluginutils": "^5.0.2",
-    "magic-string": "^0.27.0",
-    "unplugin": "^1.0.1"
+    "magic-string": "^0.29.0",
+    "unplugin": "^1.1.0"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^2.4.4",
-    "@types/node": "^18.13.0",
+    "@sxzz/eslint-config": "^2.4.5",
+    "@types/node": "^18.14.0",
     "bumpp": "^8.2.1",
-    "eslint": "^8.33.0",
+    "eslint": "^8.34.0",
     "eslint-define-config": "^1.15.0",
     "fast-glob": "^3.2.12",
-    "prettier": "^2.8.3",
-    "tsup": "^6.5.0",
+    "prettier": "^2.8.4",
+    "tsup": "^6.6.3",
     "tsx": "^3.12.3",
-    "typescript": "^5.0.0-dev.20230207",
-    "vite": "^4.1.1",
-    "vitest": "^0.28.4"
+    "typescript": "^5.0.0-dev.20230219",
+    "vite": "^4.1.2",
+    "vitest": "^0.28.5"
   },
   "engines": {
     "node": ">=14.19.0"
