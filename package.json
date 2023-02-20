@@ -26,14 +26,6 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "typesVersions": {
-    "<=4.9": {
-      "*": [
-        "./dist/*",
-        "./*"
-      ]
-    }
-  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -61,6 +53,14 @@
       "import": "./dist/esbuild.mjs"
     },
     "./*": "./*"
+  },
+  "typesVersions": {
+    "<=4.9": {
+      "*": [
+        "./dist/*",
+        "./*"
+      ]
+    }
   },
   "publishConfig": {
     "access": "public"
