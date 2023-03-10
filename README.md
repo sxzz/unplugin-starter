@@ -7,7 +7,7 @@ Starter template for [unplugin](https://github.com/unjs/unplugin).
 ## Installation
 
 ```bash
-npm i unplugin-starter
+npm i -D unplugin-starter
 ```
 
 <details>
@@ -78,7 +78,6 @@ module.exports = {
 ```
 
 <br></details>
-
 
 ## Sponsors
 
