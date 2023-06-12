@@ -66,7 +66,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json,.md",
+    "lint": "ESLINT_USE_FLAT_CONFIG=true eslint -c eslint.config.mjs --cache .",
     "lint:fix": "pnpm run lint --fix",
     "build": "tsup && tsx scripts/postbuild.mts",
     "dev": "tsup --watch",
@@ -81,8 +81,8 @@
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^3.0.0",
-    "@types/node": "^18.16.16",
-    "bumpp": "^9.1.0",
+    "@types/node": "^18.16.17",
+    "bumpp": "^9.1.1",
     "eslint": "^8.42.0",
     "eslint-define-config": "^1.20.0",
     "fast-glob": "^3.2.12",
