@@ -81,9 +81,9 @@
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^3.0.0",
-    "@types/node": "^18.16.17",
+    "@types/node": "^18.16.18",
     "bumpp": "^9.1.1",
-    "eslint": "^8.42.0",
+    "eslint": "^8.43.0",
     "eslint-define-config": "^1.20.0",
     "fast-glob": "^3.2.12",
     "prettier": "^2.8.8",
@@ -91,7 +91,7 @@
     "tsx": "^3.12.7",
     "typescript": "^5.1.3",
     "vite": "^4.3.9",
-    "vitest": "^0.32.0"
+    "vitest": "^0.32.2"
   },
   "engines": {
     "node": ">=16.14.0"
