@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "packageManager": "pnpm@8.15.4",
   "description": "Description.",
+  "type": "commonjs",
   "keywords": [
     "unplugin",
     "rollup",
@@ -46,6 +47,10 @@
     "./esbuild": {
       "require": "./dist/esbuild.js",
       "import": "./dist/esbuild.mjs"
+    },
+    "./api": {
+      "require": "./dist/api.js",
+      "import": "./dist/api.mjs"
     },
     "./*": [
       "./*",
