@@ -13,7 +13,7 @@ export type OptionsResolved = Overwrite<
   Pick<Options, 'enforce'>
 >
 
-export function resolveOption(options: Options): OptionsResolved {
+export function resolveOptions(options: Options): OptionsResolved {
   return {
     include: options.include || [/\.[cm]?[jt]sx?$/],
     exclude: options.exclude || [/node_modules/],
