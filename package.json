@@ -84,7 +84,7 @@
     "unplugin": "^1.8.0"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^3.8.4",
+    "@sxzz/eslint-config": "^3.8.5",
     "@sxzz/prettier-config": "^2.0.1",
     "@types/node": "^20.11.24",
     "bumpp": "^9.3.1",
