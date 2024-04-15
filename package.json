@@ -1,7 +1,7 @@
 {
   "name": "unplugin-starter",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.15.6",
+  "packageManager": "pnpm@8.15.7",
   "description": "Description.",
   "type": "module",
   "keywords": [
@@ -84,18 +84,18 @@
     "unplugin": "^1.10.1"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^3.9.0",
+    "@sxzz/eslint-config": "^3.9.1",
     "@sxzz/prettier-config": "^2.0.1",
-    "@types/node": "^20.12.6",
+    "@types/node": "^20.12.7",
     "bumpp": "^9.4.0",
     "eslint": "^9.0.0",
     "fast-glob": "^3.3.2",
     "prettier": "^3.2.5",
     "tsup": "^8.0.2",
     "tsx": "^4.7.2",
-    "typescript": "^5.4.4",
+    "typescript": "^5.4.5",
     "vite": "^5.2.8",
-    "vitest": "^1.4.0"
+    "vitest": "^1.5.0"
   },
   "engines": {
     "node": ">=18.0.0"
