@@ -1,7 +1,7 @@
 {
   "name": "unplugin-starter",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.15.7",
+  "packageManager": "pnpm@9.0.5",
   "description": "Description.",
   "type": "module",
   "keywords": [
