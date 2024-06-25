@@ -39,6 +39,20 @@ export default {
 <br></details>
 
 <details>
+<summary>Rolldown</summary><br>
+
+```ts
+// rolldown.config.js
+import UnpluginStarter from 'unplugin-starter/rolldown'
+
+export default {
+  plugins: [UnpluginStarter()],
+}
+```
+
+<br></details>
+
+<details>
 <summary>esbuild</summary><br>
 
 ```ts
