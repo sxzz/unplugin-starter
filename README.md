@@ -4,6 +4,21 @@
 
 Starter template for [unplugin](https://github.com/unjs/unplugin).
 
+## Template Usage
+
+To use this template, clone it down using:
+
+```bash
+npx degit sxzz/unplugin-starter unplugin-my-plugin
+```
+
+And do a global replacement of `unplugin-starter` with your plugin name.
+
+Then you can start developing your unplugin 🔥
+
+To test your plugin, run: `pnpm run test`.
+To release a new version, run: `pnpm run release`.
+
 ## Installation
 
 ```bash
