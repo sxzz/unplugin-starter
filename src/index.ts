@@ -16,10 +16,9 @@ const plugin: UnpluginInstance<Options | undefined, false> = createUnplugin(
         return filter(id)
       },
 
+      // eslint-disable-next-line unused-imports/no-unused-vars
       transform(code, id) {
-        // eslint-disable-next-line no-console
-        console.log(code, id)
-        return undefined
+        return `// unplugin-starter injected\n${code}`
       },
     }
   },

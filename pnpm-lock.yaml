@@ -24,6 +24,9 @@ importers:
       '@sxzz/prettier-config':
         specifier: ^2.0.2
         version: 2.0.2
+      '@sxzz/test-utils':
+        specifier: ^0.2.1
+        version: 0.2.1(vitest@2.0.5(@types/node@22.5.1))
       '@types/node':
         specifier: ^22.5.1
         version: 22.5.1
@@ -553,6 +556,12 @@ packages:
 
   '@sxzz/prettier-config@2.0.2':
     resolution: {integrity: sha512-yBKxaIr6WqgHTaLgX0g6gxNuMllkwR1QGeXynfJGmyD+XrZqO96t9xT5Mfbr9H3+N56SXY9/yFvP/e8lcJI7KA==}
+
+  '@sxzz/test-utils@0.2.1':
+    resolution: {integrity: sha512-DmOdRZE68LW73YIT3pA6c6wErace7coM4sptQgCoV6IGZLPxWeGdoaxS8U/HWfuQCJ++n/zo3FOZoYuLxbQPhg==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      vitest: ^2.0.3
 
   '@types/debug@4.1.12':
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
@@ -2711,6 +2720,13 @@ snapshots:
       - typescript
 
   '@sxzz/prettier-config@2.0.2': {}
+
+  '@sxzz/test-utils@0.2.1(vitest@2.0.5(@types/node@22.5.1))':
+    dependencies:
+      '@rollup/pluginutils': 5.1.0(rollup@4.21.2)
+      fast-glob: 3.3.2
+      rollup: 4.21.2
+      vitest: 2.0.5(@types/node@22.5.1)
 
   '@types/debug@4.1.12':
     dependencies:
