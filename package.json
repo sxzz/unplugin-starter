@@ -93,15 +93,15 @@
     "unplugin": "^1.12.2"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^4.0.0",
+    "@sxzz/eslint-config": "^4.1.0",
     "@sxzz/prettier-config": "^2.0.2",
-    "@types/node": "^20.16.1",
+    "@types/node": "^22.5.1",
     "bumpp": "^9.5.2",
     "eslint": "^9.9.1",
     "fast-glob": "^3.3.2",
     "prettier": "^3.3.3",
     "tsup": "^8.2.4",
-    "tsx": "^4.18.0",
+    "tsx": "^4.19.0",
     "typescript": "^5.5.4",
     "vite": "^5.4.2",
     "vitest": "^2.0.5"
