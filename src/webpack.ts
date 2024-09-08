@@ -1,3 +1,3 @@
-import unplugin from './index'
+import { Starter } from './index'
 
-export default unplugin.webpack as typeof unplugin.webpack
+export default Starter.webpack as typeof Starter.webpack

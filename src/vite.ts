@@ -1,3 +1,3 @@
-import unplugin from './index'
+import { Starter } from './index'
 
-export default unplugin.vite as typeof unplugin.vite
+export default Starter.vite as typeof Starter.vite

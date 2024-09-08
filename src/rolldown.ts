@@ -1,3 +1,3 @@
-import unplugin from './index'
+import { Starter } from './index'
 
-export default unplugin.rolldown as typeof unplugin.rolldown
+export default Starter.rolldown as typeof Starter.rolldown

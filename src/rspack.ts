@@ -1,3 +1,3 @@
-import unplugin from './index'
+import { Starter } from './index'
 
-export default unplugin.rspack as typeof unplugin.rspack
+export default Starter.rspack as typeof Starter.rspack
