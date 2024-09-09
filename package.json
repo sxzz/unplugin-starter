@@ -90,21 +90,21 @@
   "dependencies": {
     "@rollup/pluginutils": "^5.1.0",
     "magic-string": "^0.30.11",
-    "unplugin": "^1.12.3"
+    "unplugin": "^1.13.1"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^4.1.0",
+    "@sxzz/eslint-config": "^4.1.6",
     "@sxzz/prettier-config": "^2.0.2",
-    "@sxzz/test-utils": "^0.2.1",
-    "@types/node": "^22.5.2",
+    "@sxzz/test-utils": "^0.3.1",
+    "@types/node": "^22.5.4",
     "bumpp": "^9.5.2",
-    "eslint": "^9.9.1",
+    "eslint": "^9.10.0",
     "fast-glob": "^3.3.2",
     "prettier": "^3.3.3",
     "tsup": "^8.2.4",
     "tsx": "^4.19.0",
     "typescript": "^5.5.4",
-    "vite": "^5.4.2",
+    "vite": "^5.4.3",
     "vitest": "^2.0.5"
   },
   "engines": {
