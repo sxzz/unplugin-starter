@@ -19,4 +19,6 @@ import { Starter } from './index'
  * })
  * ```
  */
-export default Starter.vite as typeof Starter.vite
+const vite = Starter.vite as typeof Starter.vite
+export default vite
+export { vite as 'module.exports' }

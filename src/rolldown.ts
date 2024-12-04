@@ -19,4 +19,6 @@ import { Starter } from './index'
  * }
  * ```
  */
-export default Starter.rolldown as typeof Starter.rolldown
+const rolldown = Starter.rolldown as typeof Starter.rolldown
+export default rolldown
+export { rolldown as 'module.exports' }

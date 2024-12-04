@@ -19,4 +19,6 @@ import { Starter } from './index'
  * })
  * ```
  */
-export default Starter.esbuild as typeof Starter.esbuild
+const esbuild = Starter.esbuild as typeof Starter.esbuild
+export default esbuild
+export { esbuild as 'module.exports' }

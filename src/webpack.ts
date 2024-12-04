@@ -17,4 +17,6 @@ import { Starter } from './index'
  * }
  * ```
  */
-export default Starter.webpack as typeof Starter.webpack
+const webpack = Starter.webpack as typeof Starter.webpack
+export default webpack
+export { webpack as 'module.exports' }

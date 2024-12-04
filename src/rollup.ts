@@ -19,4 +19,6 @@ import { Starter } from './index'
  * }
  * ```
  */
-export default Starter.rollup as typeof Starter.rollup
+const rollup = Starter.rollup as typeof Starter.rollup
+export default rollup
+export { rollup as 'module.exports' }
