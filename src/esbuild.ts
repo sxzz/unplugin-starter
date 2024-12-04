@@ -11,13 +11,11 @@ import { Starter } from './index'
  *
  * @example
  * ```ts
- * // esbuild.config.js
  * import { build } from 'esbuild'
- *
- * build({
- *   plugins: [require('unplugin-starter/esbuild')()],
- * })
- * ```
+ * import UnpluginStarter from 'unplugin-starter/esbuild'
+ * 
+ * build({ plugins: [UnpluginStarter()] })
+```
  */
 const esbuild = Starter.esbuild as typeof Starter.esbuild
 export default esbuild

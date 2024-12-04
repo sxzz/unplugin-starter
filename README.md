@@ -75,11 +75,11 @@ export default {
 <summary>esbuild</summary><br>
 
 ```ts
-// esbuild.config.js
 import { build } from 'esbuild'
+import UnpluginStarter from 'unplugin-starter/esbuild'
 
 build({
-  plugins: [require('unplugin-starter/esbuild')()],
+  plugins: [UnpluginStarter()],
 })
 ```
 
@@ -88,11 +88,28 @@ build({
 <details>
 <summary>Webpack</summary><br>
 
-```ts
+```js
 // webpack.config.js
-module.exports = {
+import UnpluginStarter from 'unplugin-starter/webpack'
+
+export default {
   /* ... */
-  plugins: [require('unplugin-starter/webpack')()],
+  plugins: [UnpluginStarter()],
+}
+```
+
+<br></details>
+
+<details>
+<summary>Rspack</summary><br>
+
+```ts
+// rspack.config.js
+import UnpluginStarter from 'unplugin-starter/rspack'
+
+export default {
+  /* ... */
+  plugins: [UnpluginStarter()],
 }
 ```
 

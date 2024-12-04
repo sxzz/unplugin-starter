@@ -10,10 +10,12 @@ import { Starter } from './index'
  * Rspack plugin
  *
  * @example
- * ```ts
+ * ```js
  * // rspack.config.js
- * module.exports = {
- *  plugins: [require('unplugin-starter/rspack')()],
+ * import UnpluginStarter from 'unplugin-starter/rspack'
+ *
+ * default export {
+ *  plugins: [UnpluginStarter()],
  * }
  * ```
  */

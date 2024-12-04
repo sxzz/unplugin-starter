@@ -10,10 +10,12 @@ import { Starter } from './index'
  * Webpack plugin
  *
  * @example
- * ```ts
+ * ```js
  * // webpack.config.js
- * module.exports = {
- *  plugins: [require('unplugin-starter/webpack')()],
+ * import UnpluginStarter from 'unplugin-starter/webpack'
+ *
+ * default export {
+ *  plugins: [UnpluginStarter()],
  * }
  * ```
  */
