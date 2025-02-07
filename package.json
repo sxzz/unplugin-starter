@@ -41,10 +41,7 @@
     "./esbuild": "./dist/esbuild.js",
     "./farm": "./dist/farm.js",
     "./api": "./dist/api.js",
-    "./*": [
-      "./*",
-      "./*.d.ts"
-    ]
+    "./*": "./*"
   },
   "typesVersions": {
     "*": {
@@ -68,8 +65,8 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@rollup/pluginutils": "^5.1.4",
-    "unplugin": "^2.1.2"
+    "unplugin": "^2.1.2",
+    "unplugin-utils": "^0.2.3"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^5.0.1",
