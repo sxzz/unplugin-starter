@@ -1,5 +1,5 @@
 /**
- * This entry file is for esbuild plugin. Requires esbuild >= 0.15
+ * This entry file is for esbuild plugin.
  *
  * @module
  */
