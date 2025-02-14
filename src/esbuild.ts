@@ -12,9 +12,9 @@ import { Starter } from './index'
  * @example
  * ```ts
  * import { build } from 'esbuild'
- * import UnpluginStarter from 'unplugin-starter/esbuild'
+ * import Starter from 'unplugin-starter/esbuild'
  * 
- * build({ plugins: [UnpluginStarter()] })
+ * build({ plugins: [Starter()] })
 ```
  */
 const esbuild = Starter.esbuild as typeof Starter.esbuild

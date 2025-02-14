@@ -34,10 +34,10 @@ npm i -D unplugin-starter
 
 ```ts
 // vite.config.ts
-import UnpluginStarter from 'unplugin-starter/vite'
+import Starter from 'unplugin-starter/vite'
 
 export default defineConfig({
-  plugins: [UnpluginStarter()],
+  plugins: [Starter()],
 })
 ```
 
@@ -48,10 +48,10 @@ export default defineConfig({
 
 ```ts
 // rollup.config.js
-import UnpluginStarter from 'unplugin-starter/rollup'
+import Starter from 'unplugin-starter/rollup'
 
 export default {
-  plugins: [UnpluginStarter()],
+  plugins: [Starter()],
 }
 ```
 
@@ -62,10 +62,10 @@ export default {
 
 ```ts
 // rolldown.config.js
-import UnpluginStarter from 'unplugin-starter/rolldown'
+import Starter from 'unplugin-starter/rolldown'
 
 export default {
-  plugins: [UnpluginStarter()],
+  plugins: [Starter()],
 }
 ```
 
@@ -76,10 +76,10 @@ export default {
 
 ```ts
 import { build } from 'esbuild'
-import UnpluginStarter from 'unplugin-starter/esbuild'
+import Starter from 'unplugin-starter/esbuild'
 
 build({
-  plugins: [UnpluginStarter()],
+  plugins: [Starter()],
 })
 ```
 
@@ -90,11 +90,11 @@ build({
 
 ```js
 // webpack.config.js
-import UnpluginStarter from 'unplugin-starter/webpack'
+import Starter from 'unplugin-starter/webpack'
 
 export default {
   /* ... */
-  plugins: [UnpluginStarter()],
+  plugins: [Starter()],
 }
 ```
 
@@ -105,11 +105,11 @@ export default {
 
 ```ts
 // rspack.config.js
-import UnpluginStarter from 'unplugin-starter/rspack'
+import Starter from 'unplugin-starter/rspack'
 
 export default {
   /* ... */
-  plugins: [UnpluginStarter()],
+  plugins: [Starter()],
 }
 ```
 
