@@ -125,4 +125,4 @@ export default {
 
 ## License
 
-[MIT](./LICENSE) License © 2025-PRESENT [三咲智子](https://github.com/sxzz)
+[MIT](./LICENSE) License © 2025-PRESENT [Kevin Deng](https://github.com/sxzz)
