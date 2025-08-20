@@ -1,6 +1,8 @@
-# unplugin-starter [![npm](https://img.shields.io/npm/v/unplugin-starter.svg)](https://npmjs.com/package/unplugin-starter)
+# unplugin-starter
 
-[![Unit Test](https://github.com/sxzz/unplugin-starter/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/unplugin-starter/actions/workflows/unit-test.yml)
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![Unit Test][unit-test-src]][unit-test-href]
 
 Starter template for [unplugin](https://github.com/unjs/unplugin).
 
@@ -126,3 +128,12 @@ export default {
 ## License
 
 [MIT](./LICENSE) License © 2025-PRESENT [Kevin Deng](https://github.com/sxzz)
+
+<!-- Badges -->
+
+[npm-version-src]: https://img.shields.io/npm/v/unplugin-starter.svg
+[npm-version-href]: https://npmjs.com/package/unplugin-starter
+[npm-downloads-src]: https://img.shields.io/npm/dm/unplugin-starter
+[npm-downloads-href]: https://www.npmcharts.com/compare/unplugin-starter?interval=30
+[unit-test-src]: https://github.com/sxzz/unplugin-starter/actions/workflows/unit-test.yml/badge.svg
+[unit-test-href]: https://github.com/sxzz/unplugin-starter/actions/workflows/unit-test.yml
