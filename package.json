@@ -61,7 +61,7 @@
     "dev": "tsdown --watch",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
-    "release": "bumpp && pnpm publish",
+    "release": "bumpp && unotp pnpm publish",
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
