@@ -14,8 +14,8 @@ import { Starter } from './index'
  * // rspack.config.js
  * import Starter from 'unplugin-starter/rspack'
  *
- * default export {
- *  plugins: [Starter()],
+ * export default {
+ *   plugins: [Starter()],
  * }
  * ```
  */
