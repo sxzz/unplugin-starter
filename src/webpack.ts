@@ -14,8 +14,8 @@ import { Starter } from './index'
  * // webpack.config.js
  * import Starter from 'unplugin-starter/webpack'
  *
- * default export {
- *  plugins: [Starter()],
+ * export default {
+ *   plugins: [Starter()],
  * }
  * ```
  */
