@@ -65,8 +65,7 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "unplugin": "^2.3.10",
-    "unplugin-utils": "^0.3.1"
+    "unplugin": "^2.3.10"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^7.2.10",
