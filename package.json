@@ -68,16 +68,16 @@
     "unplugin": "^2.3.10"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.2.10",
-    "@sxzz/prettier-config": "^2.2.4",
+    "@sxzz/eslint-config": "^7.3.0",
+    "@sxzz/prettier-config": "^2.2.5",
     "@sxzz/test-utils": "^0.5.12",
     "@types/node": "^24.10.1",
     "bumpp": "^10.3.1",
     "eslint": "^9.39.1",
     "prettier": "^3.6.2",
-    "tsdown": "^0.16.4",
+    "tsdown": "^0.16.5",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.9"
+    "vitest": "^4.0.10"
   },
   "engines": {
     "node": ">=20.19.0"

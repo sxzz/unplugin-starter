@@ -60,10 +60,10 @@ export default {
 <br></details>
 
 <details>
-<summary>Rolldown</summary><br>
+<summary>Rolldown / tsdown</summary><br>
 
 ```ts
-// rolldown.config.js
+// rolldown.config.ts / tsdown.config.ts
 import Starter from 'unplugin-starter/rolldown'
 
 export default {
