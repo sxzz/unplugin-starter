@@ -1,9 +1,20 @@
 {
   "name": "unplugin-starter",
-  "version": "0.0.0",
-  "packageManager": "pnpm@10.23.0",
-  "description": "Description.",
   "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@10.24.0",
+  "description": "Description.",
+  "author": "Kevin Deng <sxzz@sxzz.moe>",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/sxzz",
+  "homepage": "https://github.com/sxzz/unplugin-starter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sxzz/unplugin-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sxzz/unplugin-starter/issues"
+  },
   "keywords": [
     "unplugin",
     "vite",
@@ -14,23 +25,6 @@
     "esbuild",
     "farm"
   ],
-  "license": "MIT",
-  "homepage": "https://github.com/sxzz/unplugin-starter#readme",
-  "bugs": {
-    "url": "https://github.com/sxzz/unplugin-starter/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sxzz/unplugin-starter.git"
-  },
-  "author": "Kevin Deng <sxzz@sxzz.moe>",
-  "funding": "https://github.com/sponsors/sxzz",
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.mts",
   "exports": {
     ".": "./dist/index.mjs",
     "./api": "./dist/api.mjs",
@@ -43,6 +37,9 @@
     "./webpack": "./dist/webpack.mjs",
     "./package.json": "./package.json"
   },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
   "typesVersions": {
     "*": {
       "*": [
@@ -51,8 +48,14 @@
       ]
     }
   },
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
+  },
+  "engines": {
+    "node": ">=20.19.0"
   },
   "scripts": {
     "lint": "eslint --cache .",
@@ -61,26 +64,23 @@
     "dev": "tsdown --watch",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
-    "release": "bumpp && unotp pnpm publish",
+    "release": "bumpp",
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
     "unplugin": "^2.3.11"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.3.2",
-    "@sxzz/prettier-config": "^2.2.5",
+    "@sxzz/eslint-config": "^7.4.1",
+    "@sxzz/prettier-config": "^2.2.6",
     "@sxzz/test-utils": "^0.5.13",
     "@types/node": "^24.10.1",
-    "bumpp": "^10.3.1",
+    "bumpp": "^10.3.2",
     "eslint": "^9.39.1",
-    "prettier": "^3.6.2",
-    "tsdown": "^0.16.6",
+    "prettier": "^3.7.3",
+    "tsdown": "^0.17.0-beta.5",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.13"
-  },
-  "engines": {
-    "node": ">=20.19.0"
+    "vitest": "^4.0.15"
   },
   "prettier": "@sxzz/prettier-config"
 }
