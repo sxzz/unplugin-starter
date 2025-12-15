@@ -71,14 +71,14 @@
     "unplugin": "^2.3.11"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.4.1",
+    "@sxzz/eslint-config": "^7.4.3",
     "@sxzz/prettier-config": "^2.2.6",
-    "@sxzz/test-utils": "^0.5.13",
-    "@types/node": "^24.10.2",
+    "@sxzz/test-utils": "^0.5.14",
+    "@types/node": "^24.10.4",
     "bumpp": "^10.3.2",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "prettier": "^3.7.4",
-    "tsdown": "^0.17.2",
+    "tsdown": "^0.17.4",
     "typescript": "^5.9.3",
     "vitest": "^4.0.15"
   },
