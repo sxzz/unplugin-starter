@@ -26,19 +26,17 @@
     "farm"
   ],
   "exports": {
-    ".": "./dist/index.mjs",
-    "./api": "./dist/api.mjs",
-    "./esbuild": "./dist/esbuild.mjs",
-    "./farm": "./dist/farm.mjs",
-    "./rolldown": "./dist/rolldown.mjs",
-    "./rollup": "./dist/rollup.mjs",
-    "./rspack": "./dist/rspack.mjs",
-    "./vite": "./dist/vite.mjs",
-    "./webpack": "./dist/webpack.mjs",
+    ".": "./dist/index.js",
+    "./api": "./dist/api.js",
+    "./esbuild": "./dist/esbuild.js",
+    "./farm": "./dist/farm.js",
+    "./rolldown": "./dist/rolldown.js",
+    "./rollup": "./dist/rollup.js",
+    "./rspack": "./dist/rspack.js",
+    "./vite": "./dist/vite.js",
+    "./webpack": "./dist/webpack.js",
     "./package.json": "./package.json"
   },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "typesVersions": {
     "*": {
@@ -71,16 +69,17 @@
     "unplugin": "^2.3.11"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.4.4",
+    "@sxzz/eslint-config": "^7.4.5",
     "@sxzz/prettier-config": "^2.2.6",
     "@sxzz/test-utils": "^0.5.15",
-    "@types/node": "^24.10.7",
-    "bumpp": "^10.3.2",
+    "@types/node": "^25.0.8",
+    "bumpp": "^10.4.0",
     "eslint": "^9.39.2",
     "prettier": "^3.7.4",
-    "tsdown": "^0.19.0",
+    "tsdown": "^0.20.0-beta.2",
+    "tsdown-preset-sxzz": "^0.2.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.16"
+    "vitest": "^4.0.17"
   },
   "prettier": "@sxzz/prettier-config"
 }
