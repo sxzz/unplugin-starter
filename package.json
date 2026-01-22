@@ -2,7 +2,7 @@
   "name": "unplugin-starter",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.28.0",
+  "packageManager": "pnpm@10.28.1",
   "description": "Description.",
   "author": "Kevin Deng <sxzz@sxzz.moe>",
   "license": "MIT",
@@ -69,14 +69,14 @@
     "unplugin": "^2.3.11"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.4.5",
+    "@sxzz/eslint-config": "^7.5.0",
     "@sxzz/prettier-config": "^2.2.6",
     "@sxzz/test-utils": "^0.5.15",
-    "@types/node": "^25.0.9",
+    "@types/node": "^25.0.10",
     "bumpp": "^10.4.0",
     "eslint": "^9.39.2",
-    "prettier": "^3.8.0",
-    "tsdown": "^0.20.0-beta.3",
+    "prettier": "^3.8.1",
+    "tsdown": "^0.20.0",
     "tsdown-preset-sxzz": "^0.3.0",
     "typescript": "^5.9.3",
     "vitest": "^4.0.17"
