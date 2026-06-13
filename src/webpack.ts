@@ -4,7 +4,7 @@
  * @module
  */
 
-import { Starter } from './index'
+import { Starter } from './index.ts'
 
 /**
  * Webpack plugin

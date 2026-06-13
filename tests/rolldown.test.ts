@@ -1,7 +1,7 @@
 import path from 'node:path'
 import { rolldownBuild, testFixtures } from '@sxzz/test-utils'
 import { describe } from 'vitest'
-import Starter from '../src/rolldown'
+import Starter from '../src/rolldown.ts'
 
 describe('rollup', async () => {
   const { dirname } = import.meta
