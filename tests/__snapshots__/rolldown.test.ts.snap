@@ -2,9 +2,9 @@
 
 exports[`rollup > basic.js 1`] = `
 "// basic.js
-// unplugin-starter injected
+//#region tests/fixtures/basic.js
 const num = 10;
-
+//#endregion
 export { num };
 "
 `;
