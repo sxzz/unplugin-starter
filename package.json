@@ -2,7 +2,13 @@
   "name": "unplugin-starter",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@12.4.1",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.5.0",
+      "onFail": "download"
+    }
+  },
   "description": "Description.",
   "author": "Kevin Deng <sxzz@sxzz.moe>",
   "license": "MIT",
